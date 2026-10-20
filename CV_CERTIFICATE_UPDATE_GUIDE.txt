@@ -1,0 +1,24 @@
+Sandeep Portfolio — CV and Certificate Updates
+
+FILES
+- index.html and style.css: portfolio website
+- assets/resume.pdf: current CV (the portfolio buttons link to this exact path)
+- assets/certificates/: original uploaded certificate PDFs selected for the portfolio
+
+HOW TO UPDATE THE CV LATER
+1. Export your new CV as PDF.
+2. Rename it to resume.pdf.
+3. Replace sandeep_portfoli/assets/resume.pdf with the new file (keep the same path and filename).
+4. Commit/push the updated file to the same GitHub repository. The website CV links do not need editing.
+
+HOW TO ADD ANOTHER CERTIFICATE
+1. Copy the certificate PDF into assets/certificates/ with a simple filename, e.g. new-course.pdf.
+2. Add a new <article class="cert-card"> in the certification grid in index.html, linking to assets/certificates/new-course.pdf.
+3. Commit/push the changed files to GitHub.
+
+IMPORTANT
+- The portfolio's certificate links open the PDFs stored in this repository; deleted emails are not needed for these uploaded files. Graphic Design Basics is shown on the portfolio but left off the ECE-focused CV.
+- The Python for Data Science file appears to be a certificate/workshop document; its readable PDF text includes the name and certificate ID KP-AKTU-100, but no course title, so the website uses the title supplied in the uploaded filename and the CV provided.
+- The uploaded Innovation & Design Thinking PDF contains certificate ID KP-IDT-0068; no date was readable, so no date is claimed.
+- The CV is based on the details in your uploaded CV and uses the Abhishek Giri CV as a structural reference only. No Abhishek Giri credentials or experience have been copied.
+- The CV does not include the Graphic Design Basics certificate because it is less relevant to the target ECE / embedded / electronics roles.
